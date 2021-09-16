@@ -1,0 +1,122 @@
+{
+    "0": {
+        "user_id": 1,
+        "name": "Jos\u00e9 Eduardo Ochoa Luna",
+        "aig_role": "Coordinator - Researcher, AIG UCSP.",
+        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "education": "PhD in Sciences - Escola Politecnica da Universidade de S\u00e3o Paulo - Brasil (2011).",
+        "e_mail": "jeochoa@ucsp.edu.pe",
+        "image": "jeochoa.jpeg",
+        "aig_role_id": 1
+    },
+    "1": {
+        "user_id": 2,
+        "name": "Yvan Tupac Valdivia",
+        "aig_role": "Researcher, AIG UCSP.",
+        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "education": "PhD Electric Engineering - Pontif\u00edcia Universidade Cat\u00f3lica do Rio de Janeiro - Brasil (2005).",
+        "e_mail": "ytupac@ucsp.edu.pe",
+        "image": "ytupac.jpeg",
+        "aig_role_id": 2
+    },
+    "2": {
+        "user_id": 3,
+        "name": "Graciela Meza Lovon",
+        "aig_role": "Researcher, AIG UCSP.",
+        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "education": "Ph.D. in Computer Science - Universidad Nacional de San Agustin - Peru (2012).",
+        "e_mail": "gmezal@ucsp.edu.pe ",
+        "image": NaN,
+        "aig_role_id": 2
+    },
+    "3": {
+        "user_id": 4,
+        "name": "Viviana Cotik Landau",
+        "aig_role": "Researcher, AIG UCSP.",
+        "university_role": NaN,
+        "education": " ",
+        "e_mail": "vcotik@gmail.com",
+        "image": NaN,
+        "aig_role_id": 2
+    },
+    "4": {
+        "user_id": 5,
+        "name": "Mauricio Condori Manesses Antoni",
+        "aig_role": "Researcher, AIG UCSP.",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "antonimauricio19932@gmail.com",
+        "image": NaN,
+        "aig_role_id": 2
+    },
+    "5": {
+        "user_id": 6,
+        "name": "Daniel Palomino Paucar",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "dapalominop@gmail.com ",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "6": {
+        "user_id": 7,
+        "name": "ERROL WILDERD MAMANI CONDORI  ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "wildr10@gmail.com ",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "7": {
+        "user_id": 8,
+        "name": "DANIEL LOZANO BARRIGA ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "daniel.lozano@ucsp.edu.pe ",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "8": {
+        "user_id": 9,
+        "name": "DANET DELGADO CASTILLO ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "danet.delgado@ucsp.edu.pe",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "9": {
+        "user_id": 10,
+        "name": "RICARDO MANUEL LAZO VASQUEZ ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "ricardo.lazo@ucsp.edu.pe ",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "10": {
+        "user_id": 11,
+        "name": "ANABEL DALILA PAREDES FLORES ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "anabel.paredes@ucsp.edu.pe",
+        "image": NaN,
+        "aig_role_id": 3
+    },
+    "11": {
+        "user_id": 12,
+        "name": "ALEXANDER YANQUE ALIAGA ",
+        "aig_role": "Thesis Student",
+        "university_role": NaN,
+        "education": NaN,
+        "e_mail": "alexander.yanque@ucsp.edu.pe ",
+        "image": NaN,
+        "aig_role_id": 3
+    }
+}
