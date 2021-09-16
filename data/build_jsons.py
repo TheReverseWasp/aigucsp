@@ -2,8 +2,11 @@ import json
 import pandas as pd
 
 articles = pd.read_csv("csvs/articles.csv")
+articles = articles.fillna("");
 members = pd.read_csv("csvs/members.csv")
+members = members.fillna("");
 projects = pd.read_csv("csvs/projects.csv")
+projects = projects.fillna("");
 
 articles = articles.T.to_dict()
 with open("jsons/articles.json", "w") as outfile:
