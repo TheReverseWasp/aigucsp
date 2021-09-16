@@ -28,6 +28,8 @@ $(document).ready(function(){
   function fill_data() {
     var temp_articles = dicToArr(articles);
     var sorted_articles = temp_articles.sort(sort_articles);
+    var article_years = getArticleYears(sorted_articles);
+    article_years = article_years.sort().reverse();
 
     var temp_projects = dicToArr(projects);
     var sorted_projects = temp_projects.sort(sort_projects);
@@ -38,6 +40,7 @@ $(document).ready(function(){
     fillLastPapers(sorted_articles);
     fillAllProjects(sorted_projects);
     fillAllMembers(sorted_members);
+    fillAllPublications(sorted_articles, article_years);
   };
 
   function dicToArr(dic) {
@@ -50,6 +53,18 @@ $(document).ready(function(){
 
   function sort_articles(article1, article2) {
     return article1.date > article2.date;
+  };
+
+  function getArticleYears(sorted_articles){
+    var temp = new Set();
+    var answer = [];
+    for(i in sorted_articles) {
+      temp.add(sorted_articles[i].date);
+    }
+    for(let key of temp) {
+      answer.push(key);
+    }
+    return answer;
   };
 
   function sort_projects(project1, project2) {
@@ -99,7 +114,7 @@ $(document).ready(function(){
     for(i in sorted_members) {
       if(sorted_members[i].aig_role_id == 1){
         roleOneDiv.append(
-          '<div class="row gx-5 align-items-center">' +
+          '<div class="row gx-5 my-5 align-items-center">' +
             '<div class="col"></div>' +
             '<div class="col-lg-3"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/images/team/' + sorted_members[i].image +'" alt="..." /></div>' +
             '<div class="col-lg-6">' +
@@ -122,7 +137,7 @@ $(document).ready(function(){
     for(i in sorted_members) {
       if(sorted_members[i].aig_role_id == 2){
         roleTwoDiv.append(
-          '<div class="gx-5 col-6 row align-items-center">' + 
+          '<div class="gx-5 col-6 my-5 row align-items-center">' + 
             '<div class="col-lg-5"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/images/team/' + sorted_members[i].image + '" alt="..." /></div>' + 
             '<div class="col-lg-7">' +
               '<h2 class="fw-bolder fs-3">' + sorted_members[i].name + '</h2>' +
@@ -143,7 +158,7 @@ $(document).ready(function(){
     for(i in sorted_members) {
       if(sorted_members[i].aig_role_id == 3){
         roleThreeDiv.append(
-          '<div class="col-3 mb-5 mb-5 mb-xl-0">' +
+          '<div class="col-3 my-5 mb-xl-0">' +
               '<div class="text-center">' +
                   '<img class="img-fluid rounded-circle mb-4 px-4" src="assets/images/team/' + sorted_members[i].image + '" alt="..." />' +
                   '<h5 class="fw-bolder">' + sorted_members[i].name + '</h5>' +
@@ -155,7 +170,45 @@ $(document).ready(function(){
     }
   };
 
+  function fillAllPublications(sorted_articles, article_years) {
+    var publications = $("#publications");
+    for(year in article_years) {
+      publications.append(
+        '<section class="py-0">' +
+            '<div class="container px-5 mt-5">' +
+                '<div class="row gx-5">' +
+                    '<div class="col-12 mb-0 text-primary"><h2 class="fw-bolder "> ' + article_years[year] + '</h2></div>'
+      );
+      for(i in sorted_articles) {
+        if (sorted_articles[i].date == article_years[year]) {
+          publications.append(
+                    '<hr>' +
+                    '<div class="col-lg-12 row align-items-center"">' +
+                        '<div class="col-2"></div>' +
+                        '<div class="col mb-5">' +
+                            '<div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-book"></i></div>' +
+                        '</div>' +
+                        '<div class="col-9 mb-5 ">' +
+                            '<h5 class="fw-bolder text-primary mb-2 "> ' + sorted_articles[i].paper_title + '</h5><br>' +
+                            '<p class="mb-0"> ' +
+                                'Conference/Journal: ' + sorted_articles[i].conference_journal_title + '<br>' +
+                                'Authors: ' + sorted_articles[i].authors + ' <br>' +
+                                '' + sorted_articles[i].state + ' <br>' +
+                                '' + sorted_articles[i].other_info + '' +
+                            '</p>' +
+                        '</div>' +
+                    '</div>'
+          );
 
+        }
+      }
+      publications.append(
+                '<hr></div>'+
+            '</div>' +
+        '</section>'
+      );
+    }                  
+  }
 
   build();
 });
