@@ -7,32 +7,46 @@ $(document).ready(function(){
   };
 
   function request_articles(){
-    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/articles.csv")
+    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/jsons/articles.json")
       .then( r => r.text() )
       .then( text => articles = JSON.parse(text))
       .then(() => request_members());
   };
   function request_members(){
-    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/members.csv")
+    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/jsons/members.json")
       .then( r => r.text().value )
       .then( text => members = JSON.parse(text))
       .then(() => request_projects());
   };
   function request_projects(){
-    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/projects.csv")
+    fetch("https://raw.githubusercontent.com/TheReverseWasp/AIG-UCSP/data/data/jsons/projects.json")
       .then( r => r.text().value )
       .then( text => projects = JSON.parse(text))
       .then(() => fill_data());
   };
   
   function fill_data() {
-    var sorted_articles = articles.sort(sort_articles);
-    var sorted_projects = projects.sort(sort_projects);
-    var sorted_members = members.sort(sort_members);
+    var temp_articles = dicToArr(articles);
+    var sorted_articles = temp_articles.sort(sort_articles);
+
+    var temp_projects = dicToArr(projects);
+    var sorted_projects = temp_projects.sort(sort_projects);
+
+    var temp_members = dicToArr(members);
+    var sorted_members = temp_members.sort(sort_members);
+
     fillLastPapers(sorted_articles);
     fillAllProjects(sorted_projects);
     fillAllMembers(sorted_members);
   };
+
+  function dicToArr(dic) {
+    var arr = [] 
+    for(key in Object.keys(dic)){
+      arr.push(dic[key]);
+    }
+    return arr;
+  }
 
   function sort_articles(article1, article2) {
     return article1.date > article2.date;
@@ -50,9 +64,15 @@ $(document).ready(function(){
     var i = 0;
     $('#last-article-list').each(function(){
       console.log(i);
-      $(this).append('<h2 class="h5">' + sorted_articles[i].paper_title + '</h2>');
-      $(this).append('<p class="mb-0">' + sorted_articles[i].paper_conference_journal_title + '</p>');
-      i++;
+      try{
+        $(this).append('<h2 class="h5">' + sorted_articles[i].paper_title + '</h2>');
+        $(this).append('<p class="mb-0">' + sorted_articles[i].paper_conference_journal_title + '</p>');
+        i++;  
+      }
+      catch(error) {
+        console.log("Not Enough Papers!");
+        return 0;
+      }
     });
   };
 
