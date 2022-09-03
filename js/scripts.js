@@ -172,7 +172,7 @@ $(document).ready(function(){
   };
 
   function fillRoleFour(sorted_members) {
-    var roleThreeDiv = $("#members-role-3");
+    var roleThreeDiv = $("#members-role-4");
     for(i in sorted_members) {
       if(sorted_members[i].aig_role_id == 4){
         roleThreeDiv.append(
