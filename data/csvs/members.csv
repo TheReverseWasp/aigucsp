@@ -1,13 +1,16 @@
 user_id,name,aig_role,university_role,education,e_mail,image,aig_role_id
-1,José Eduardo Ochoa Luna,"Coordinator - Researcher, AIG UCSP.",Assistant Professor on Universidad Católica San Pablo.,PhD in Sciences - Escola Politecnica da Universidade de São Paulo - Brasil (2011).,jeochoa@ucsp.edu.pe,jeochoa.jpeg,1
-2,Yvan Tupac Valdivia,"Researcher, AIG UCSP.",Assistant Professor on Universidad Católica San Pablo.,PhD Electric Engineering - Pontifícia Universidade Católica do Rio de Janeiro - Brasil (2005).,ytupac@ucsp.edu.pe,ytupac.jpeg,2
-3,Graciela Meza Lovon,"Researcher, AIG UCSP.",Assistant Professor on Universidad Católica San Pablo.,Ph.D. in Computer Science - Universidad Nacional de San Agustin - Peru (2012).,gmezal@ucsp.edu.pe ,,2
-4,Viviana Cotik Landau,"Researcher, AIG UCSP.",, ,vcotik@gmail.com,,2
-5,Mauricio Condori Manesses Antoni,"Researcher, AIG UCSP.",,,antonimauricio19932@gmail.com,,2
-6,Daniel Palomino Paucar,Thesis Student,,,dapalominop@gmail.com ,,3
-7,ERROL WILDERD MAMANI CONDORI  ,Thesis Student,,,wildr10@gmail.com ,,3
-8,DANIEL LOZANO BARRIGA ,Thesis Student,,,daniel.lozano@ucsp.edu.pe ,,3
-9,DANET DELGADO CASTILLO ,Thesis Student,,,danet.delgado@ucsp.edu.pe,,3
-10,RICARDO MANUEL LAZO VASQUEZ ,Thesis Student,,,ricardo.lazo@ucsp.edu.pe ,,3
-11,ANABEL DALILA PAREDES FLORES ,Thesis Student,,,anabel.paredes@ucsp.edu.pe,,3
-12,ALEXANDER YANQUE ALIAGA ,Thesis Student,,,alexander.yanque@ucsp.edu.pe ,,3
+1,José Eduardo Ochoa Luna,Coordinator – Main Researcher,Assistant Professor at Universidad Católica San Pablo.,PhD in Sciences - Escola Politecnica da Universidade de São Paulo - Brasil (2011).,jeochoa@ucsp.edu.pe,jeochoa.jpeg,1
+2,Yvan Tupac Valdivia,Main Researcher,Assistant Professor at Universidad Católica San Pablo.,PhD Electric Engineering - Pontifícia Universidade Católica do Rio de Janeiro - Brasil (2005).,ytupac@ucsp.edu.pe,ytupac.jpeg,2
+3,Graciela Meza Lovon,Main Researcher,Assistant Professor at Universidad Católica San Pablo.,Ph.D. in Computer Science - Universidad Nacional de San Agustin - Peru (2012).,gmezal@ucsp.edu.pe ,glovon.jpg,2
+4,Viviana Cotik Landau,Main Researcher,Researcher, ,vcotik@gmail.com,,2
+5,Mauricio Condori Manesses Antoni,Main Researcher,Researcher,,antonimauricio19932@gmail.com,mmauricio.jpeg,2
+6,Daniel Palomino Paucar,Thesis Student,Student,,dapalominop@gmail.com ,,4
+7,Errol Wilderd Mamani Condori,Thesis Student,Student,,wildr10@gmail.com ,,4
+8,Daniel Lozano Barriga,Thesis Student,Student,,daniel.lozano@ucsp.edu.pe ,,4
+9,Danet Delgado Castillo,Thesis Student,Student,,danet.delgado@ucsp.edu.pe,,4
+10,Ricardo Manuel Lazo Vasquez ,Researcher,Researcher,BA. in Computer Science – Universidad Católica San Pablo,ricardo.lazo@ucsp.edu.pe ,,3
+11,Anabel Dalila Paredes Flores,Researcher,Researcher,BA. in Computer Science – Universidad Católica San Pablo,anabel.paredes@ucsp.edu.pe,,3
+12,Alexander Yanque Aliaga,Thesis Student,Student,,alexander.yanque@ucsp.edu.pe ,,4
+13,Rafael Isaac Cano Guitton,Thesis Student,Student,,rafael.cano@ucsp.edu.pe,rcano.jpg,4
+14,Dennis Marcell Sumiri Fernandez,Thesis Student,Student,,dennis.sumiri@ucsp.edu.pe,dsumiri.jpeg,4
+15,Iñigo Manuel Diez Canseco Fuentes,Thesis Student,Student,,inigo.diezcanseco@ucsp.edu.pe,idiezc.png,4

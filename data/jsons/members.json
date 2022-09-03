@@ -2,8 +2,8 @@
     "0": {
         "user_id": 1,
         "name": "Jos\u00e9 Eduardo Ochoa Luna",
-        "aig_role": "Coordinator - Researcher, AIG UCSP.",
-        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "aig_role": "Coordinator \u2013 Main Researcher",
+        "university_role": "Assistant Professor at Universidad Cat\u00f3lica San Pablo.",
         "education": "PhD in Sciences - Escola Politecnica da Universidade de S\u00e3o Paulo - Brasil (2011).",
         "e_mail": "jeochoa@ucsp.edu.pe",
         "image": "jeochoa.jpeg",
@@ -12,8 +12,8 @@
     "1": {
         "user_id": 2,
         "name": "Yvan Tupac Valdivia",
-        "aig_role": "Researcher, AIG UCSP.",
-        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "aig_role": "Main Researcher",
+        "university_role": "Assistant Professor at Universidad Cat\u00f3lica San Pablo.",
         "education": "PhD Electric Engineering - Pontif\u00edcia Universidade Cat\u00f3lica do Rio de Janeiro - Brasil (2005).",
         "e_mail": "ytupac@ucsp.edu.pe",
         "image": "ytupac.jpeg",
@@ -22,18 +22,18 @@
     "2": {
         "user_id": 3,
         "name": "Graciela Meza Lovon",
-        "aig_role": "Researcher, AIG UCSP.",
-        "university_role": "Assistant Professor on Universidad Cat\u00f3lica San Pablo.",
+        "aig_role": "Main Researcher",
+        "university_role": "Assistant Professor at Universidad Cat\u00f3lica San Pablo.",
         "education": "Ph.D. in Computer Science - Universidad Nacional de San Agustin - Peru (2012).",
         "e_mail": "gmezal@ucsp.edu.pe ",
-        "image": "",
+        "image": "glovon.jpg",
         "aig_role_id": 2
     },
     "3": {
         "user_id": 4,
         "name": "Viviana Cotik Landau",
-        "aig_role": "Researcher, AIG UCSP.",
-        "university_role": "",
+        "aig_role": "Main Researcher",
+        "university_role": "Researcher",
         "education": " ",
         "e_mail": "vcotik@gmail.com",
         "image": "",
@@ -42,81 +42,111 @@
     "4": {
         "user_id": 5,
         "name": "Mauricio Condori Manesses Antoni",
-        "aig_role": "Researcher, AIG UCSP.",
-        "university_role": "",
+        "aig_role": "Main Researcher",
+        "university_role": "Researcher",
         "education": "",
         "e_mail": "antonimauricio19932@gmail.com",
-        "image": "",
+        "image": "mmauricio.jpeg",
         "aig_role_id": 2
     },
     "5": {
         "user_id": 6,
         "name": "Daniel Palomino Paucar",
         "aig_role": "Thesis Student",
-        "university_role": "",
+        "university_role": "Student",
         "education": "",
         "e_mail": "dapalominop@gmail.com ",
         "image": "",
-        "aig_role_id": 3
+        "aig_role_id": 4
     },
     "6": {
         "user_id": 7,
-        "name": "ERROL WILDERD MAMANI CONDORI  ",
+        "name": "Errol Wilderd Mamani Condori",
         "aig_role": "Thesis Student",
-        "university_role": "",
+        "university_role": "Student",
         "education": "",
         "e_mail": "wildr10@gmail.com ",
         "image": "",
-        "aig_role_id": 3
+        "aig_role_id": 4
     },
     "7": {
         "user_id": 8,
-        "name": "DANIEL LOZANO BARRIGA ",
+        "name": "Daniel Lozano Barriga",
         "aig_role": "Thesis Student",
-        "university_role": "",
+        "university_role": "Student",
         "education": "",
         "e_mail": "daniel.lozano@ucsp.edu.pe ",
         "image": "",
-        "aig_role_id": 3
+        "aig_role_id": 4
     },
     "8": {
         "user_id": 9,
-        "name": "DANET DELGADO CASTILLO ",
+        "name": "Danet Delgado Castillo",
         "aig_role": "Thesis Student",
-        "university_role": "",
+        "university_role": "Student",
         "education": "",
         "e_mail": "danet.delgado@ucsp.edu.pe",
         "image": "",
-        "aig_role_id": 3
+        "aig_role_id": 4
     },
     "9": {
         "user_id": 10,
-        "name": "RICARDO MANUEL LAZO VASQUEZ ",
-        "aig_role": "Thesis Student",
-        "university_role": "",
-        "education": "",
+        "name": "Ricardo Manuel Lazo Vasquez ",
+        "aig_role": "Researcher",
+        "university_role": "Researcher",
+        "education": "BA. in Computer Science \u2013 Universidad Cat\u00f3lica San Pablo",
         "e_mail": "ricardo.lazo@ucsp.edu.pe ",
         "image": "",
         "aig_role_id": 3
     },
     "10": {
         "user_id": 11,
-        "name": "ANABEL DALILA PAREDES FLORES ",
-        "aig_role": "Thesis Student",
-        "university_role": "",
-        "education": "",
+        "name": "Anabel Dalila Paredes Flores",
+        "aig_role": "Researcher",
+        "university_role": "Researcher",
+        "education": "BA. in Computer Science \u2013 Universidad Cat\u00f3lica San Pablo",
         "e_mail": "anabel.paredes@ucsp.edu.pe",
         "image": "",
         "aig_role_id": 3
     },
     "11": {
         "user_id": 12,
-        "name": "ALEXANDER YANQUE ALIAGA ",
+        "name": "Alexander Yanque Aliaga",
         "aig_role": "Thesis Student",
-        "university_role": "",
+        "university_role": "Student",
         "education": "",
         "e_mail": "alexander.yanque@ucsp.edu.pe ",
         "image": "",
-        "aig_role_id": 3
+        "aig_role_id": 4
+    },
+    "12": {
+        "user_id": 13,
+        "name": "Rafael Isaac Cano Guitton",
+        "aig_role": "Thesis Student",
+        "university_role": "Student",
+        "education": "",
+        "e_mail": "rafael.cano@ucsp.edu.pe",
+        "image": "rcano.jpg",
+        "aig_role_id": 4
+    },
+    "13": {
+        "user_id": 14,
+        "name": "Dennis Marcell Sumiri Fernandez",
+        "aig_role": "Thesis Student",
+        "university_role": "Student",
+        "education": "",
+        "e_mail": "dennis.sumiri@ucsp.edu.pe",
+        "image": "dsumiri.jpeg",
+        "aig_role_id": 4
+    },
+    "14": {
+        "user_id": 15,
+        "name": "I\u00f1igo Manuel Diez Canseco Fuentes",
+        "aig_role": "Thesis Student",
+        "university_role": "Student",
+        "education": "",
+        "e_mail": "inigo.diezcanseco@ucsp.edu.pe",
+        "image": "idiezc.png",
+        "aig_role_id": 4
     }
 }
