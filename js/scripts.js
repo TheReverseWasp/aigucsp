@@ -107,6 +107,7 @@ $(document).ready(function(){
     fillRoleOne(sorted_members);
     fillRoleTwo(sorted_members);
     fillRoleThree(sorted_members);
+    fillRoleFour(sorted_members);
   };
 
   function fillRoleOne(sorted_members) {
@@ -162,7 +163,23 @@ $(document).ready(function(){
               '<div class="text-center">' +
                   '<img class="img-fluid rounded-circle mb-4 px-4" src="assets/images/team/' + sorted_members[i].image + '" alt="..." />' +
                   '<h5 class="fw-bolder">' + sorted_members[i].name + '</h5>' +
-                  '<div class="fst-italic text-muted">' + sorted_members[i].aig_role + '</div>' +
+                  '<div class="fst-italic text-muted">' + sorted_members[i].education + '</div>' +
+              '</div>' +
+          '</div>'
+        );
+      }
+    }
+  };
+
+  function fillRoleFour(sorted_members) {
+    var roleThreeDiv = $("#members-role-3");
+    for(i in sorted_members) {
+      if(sorted_members[i].aig_role_id == 4){
+        roleThreeDiv.append(
+          '<div class="col-2 my-5 mb-xl-0">' +
+              '<div class="text-center">' +
+                  '<img class="img-fluid rounded-circle mb-4 px-4" src="assets/images/team/' + sorted_members[i].image + '" alt="..." />' +
+                  '<h6 class="fw-bolder">' + sorted_members[i].name + '</h5>' +
               '</div>' +
           '</div>'
         );
