@@ -161,10 +161,10 @@ $(document).ready(function () {
       if (sorted_members[i].aig_role_id == 2) {
         picture = sorted_members[i].image == "" ? "placeholder.jpg" : sorted_members[i].image;
         roleTwoDiv.append(
-          '<div class="gx-5 col-5 my-5 row align-items-center border-3 border-top border-right border-bottom border-left shadow-lg" style="max-height: 250px; max-width:537px">' +
+          '<div class="gx-5 col-5 my-5 row align-items-center border-3 border-top border-right border-bottom border-left shadow-lg" style="height: 250px; width:537px; min-height: 250px">' +
             '<div class="col-lg-5"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/images/team/' +
             picture +
-            '" alt="..." /></div>' +
+            '" alt="..." style="max-width: 160px"/></div>' +
             '<div class="col-lg-7">' +
             '<h2 class="fw-bolder fs-3">' +
             sorted_members[i].name +
